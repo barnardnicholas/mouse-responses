@@ -1,0 +1,39 @@
+html,
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#readout {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /* border-radius: 50%; */
+  border: 1px solid;
+  top: 50%;
+  left: 50%;
+  transition: all 1s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-100px -100px);
+}
+
+#readout:before {
+  border-radius: 50%;
+}
+
+#follower {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-10px -10px); */
+}
+
+#angle-pointer {
+  transition: all 0.1s ease;
+}
