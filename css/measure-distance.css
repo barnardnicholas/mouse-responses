@@ -35,5 +35,5 @@ body {
 }
 
 #angle-pointer {
-  transition: all 0.1s ease;
+  /* transition: all 0.1s ease; */
 }
